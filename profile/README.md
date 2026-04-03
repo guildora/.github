@@ -30,7 +30,6 @@ Community developers can build custom apps (pages, API routes, bot hooks, slash 
 |---|---|---|
 | **[Web](https://github.com/guildora/guildora)** | Public landing page with Discord OAuth | Nuxt 4 |
 | **[Hub](https://github.com/guildora/guildora)** | Internal community hub — members, moderation, admin, app sideloading | Nuxt 4 + Nitro |
-| **[CMS](https://github.com/guildora/guildora)** | Editorial content management | Payload CMS 3 + Next.js |
 | **[Bot](https://github.com/guildora/guildora)** | Discord bot — voice tracking, guild sync, slash commands, app integration | Discord.js |
 | **Marketplace** | App store and developer portal at [marketplace.guildora.dev](https://marketplace.guildora.dev) | Nuxt 4 + Nitro |
 | **[Docs](https://github.com/guildora/docs)** | Architecture, API contracts, guides for developers, hosters, and users | Markdown |
@@ -44,7 +43,6 @@ guildora/                          ← Core monorepo (Turbo + pnpm)
 ├── apps/
 │   ├── web/                       ← Public landing (port 3000)
 │   ├── hub/                       ← Community hub (port 3003)
-│   ├── cms/                       ← Payload CMS (port 3002)
 │   └── bot/                       ← Discord bot (port 3050)
 ├── packages/
 │   ├── shared/                    ← Drizzle schema, DB client, types, utilities
@@ -79,7 +77,7 @@ apps/                              ← Community app examples & templates
 | Layer | Technologies |
 |---|---|
 | **Frontend** | Vue 3, Nuxt 4, Tailwind CSS, GSAP |
-| **Backend** | Nitro, Payload CMS 3, Next.js 15 |
+| **Backend** | Nitro |
 | **Database** | PostgreSQL, Drizzle ORM |
 | **Bot** | Discord.js 14 |
 | **Auth** | Discord OAuth |
@@ -132,7 +130,7 @@ cp guildora/.env.example guildora/.env
 # Run database migrations
 pnpm db:migrate
 
-# Start all services (Hub, Web, CMS, Bot)
+# Start all services (Hub, Web, Bot)
 pnpm dev
 ```
 
@@ -142,7 +140,7 @@ pnpm dev
 
 | Repository | Description |
 |---|---|
-| [`guildora`](https://github.com/guildora/guildora) | Core platform — landing, hub, CMS, bot |
+| [`guildora`](https://github.com/guildora/guildora) | Core platform — landing, hub, bot |
 | [`docs`](https://github.com/guildora/docs) | Platform documentation |
 | [`guildora-app-template`](https://github.com/guildora/guildora-app-template) | Starter template for building apps |
 
