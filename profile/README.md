@@ -31,7 +31,7 @@ Community developers can build custom apps (pages, API routes, bot hooks, slash 
 | **[Web](https://github.com/guildora/guildora)** | Public landing page with Discord OAuth | Nuxt 4 |
 | **[Hub](https://github.com/guildora/guildora)** | Internal community hub — members, moderation, admin, app sideloading | Nuxt 4 + Nitro |
 | **[Bot](https://github.com/guildora/guildora)** | Discord bot — voice tracking, guild sync, slash commands, app integration | Discord.js |
-| **Marketplace** | App store and developer portal at [marketplace.guildora.dev](https://marketplace.guildora.dev) | Nuxt 4 + Nitro |
+| **Marketplace** | App store and developer portal at [guildora.app](https://guildora.app) | Nuxt 4 + Nitro |
 | **[Docs](https://github.com/guildora/docs)** | Architecture, API contracts, guides for developers, hosters, and users | Markdown |
 
 ---
@@ -156,6 +156,6 @@ If you build something with Guildora, open an issue or discussion — we'd love 
 
 <div align="center">
 
-**[Documentation](https://github.com/guildora/docs)** · **[Marketplace](https://marketplace.guildora.dev)** · **[App Template](https://github.com/guildora/guildora-app-template)**
+**[Documentation](https://github.com/guildora/docs)** · **[Marketplace](https://guildora.app)** · **[App Template](https://github.com/guildora/guildora-app-template)**
 
 </div>
